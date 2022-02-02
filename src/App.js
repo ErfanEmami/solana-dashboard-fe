@@ -1,15 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+import Home from "./home/home"
+
 import './App.css'
-import Header from './components/header/header'
-import Flex from "./components/flex/flex"
 
 function App() {
   return (
-    <Flex center>
-      <div className="app_content">
-        <Header/>
-
-      </div>
-    </Flex>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/dashboard' element={<Home/>} />
+        <Route path='/about' element={<Home/>} />
+      </Routes>
+    </Router>
   )
 }
 

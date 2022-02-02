@@ -3,12 +3,14 @@ body {
   color: white;
 }
 
-.app {
-  display: flex;
-  justify-content: center;
+a, a:hover, a:focus, a:active, a:visited { 
+  text-decoration: none; 
 }
 
-.app_content {
-  width: 100%;
-  max-width: 1200px;
+a:hover {
+  color: blueviolet !important;
+}
+
+a:visited {
+  color: white;
 }

@@ -1,5 +1,5 @@
 .flex {
-    display: flex;
-    flex-wrap: nowrap;
-    position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
 }
